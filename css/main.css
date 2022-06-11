@@ -1,0 +1,232 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --primary-background-color:#FFFFFF;
+    --secondary-background-color:#2F303A;
+
+}
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: var(--title-text-color);
+}
+
+.site-nav {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.site-nav .link {
+    text-decoration: none;
+}
+
+.site-nav .link:visited {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus 
+{
+    color: var(--accent-color);
+}
+
+.mail, 
+.tel {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.mail:hover,
+.mail.focus,
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-background-color);
+    color: var(--white-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--primary-background-color);
+    color: var(--accent-color);
+}
+
+.features,
+.our-wokrs {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.our-work {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.work-list {
+    list-style-type: none;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.team-people {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.people-job {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.filters {
+    list-style-type: none;
+}
+
+.button-filter {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-filter:focus,
+.button-filter:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.portfolio-list {
+    list-style-type: none;
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-type {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.page-footer {
+    background-color: var(--secondary-background-color);
+}
+
+.logo-studio-footer {
+    color: var(--white-color);
+}
+
+.address {
+    color: var(--white-color);
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.mail-footer,
+.tel-footer {
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-footer:hover,
+.mail-footer.focus,
+.tel-footer:hover,
+.tel-footer:focus {
+    color: var(--accent-color);
+}
