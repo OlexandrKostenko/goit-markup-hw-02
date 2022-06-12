@@ -39,11 +39,10 @@ body {
 
 .site-nav .link {
     text-decoration: none;
-}
-
-.site-nav .link:visited {
     color: var(--title-text-color);
 }
+
+
 .site-nav .link:hover,
 .site-nav .link:focus 
 {
@@ -114,6 +113,7 @@ body {
 
 .features-title {
     color: var(--title-text-color);
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
